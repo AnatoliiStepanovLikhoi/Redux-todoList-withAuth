@@ -1,4 +1,4 @@
-import { statusFilters } from './constants';
+import { statusFilters } from '../constants';
 import { createSelector } from '@reduxjs/toolkit';
 
 export const selectTasks = state => state.tasks.items;

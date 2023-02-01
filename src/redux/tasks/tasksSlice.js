@@ -2,7 +2,12 @@ import { createSlice, isAnyOf } from '@reduxjs/toolkit';
 
 //asyncronized code
 
-import { fetchTasks, addTask, deleteTask, toggleCompleted } from './operations';
+import {
+  fetchTasks,
+  addTask,
+  deleteTask,
+  toggleCompleted,
+} from '../operations';
 
 const extraActions = [fetchTasks, addTask, deleteTask, toggleCompleted];
 

@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { Task } from 'components/Task/Task';
-import { selectVisibleTasks } from 'redux/selectors';
+import { selectVisibleTasks } from 'redux/tasks/selectors';
 // import { statusFilters } from 'redux/constants';
 import css from './TaskList.module.css';
 

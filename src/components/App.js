@@ -10,7 +10,7 @@ import {
   // getTasks,
   selectError,
   selectIsLoading,
-} from 'redux/selectors';
+} from 'redux/tasks/selectors';
 
 export const App = () => {
   const dispatch = useDispatch();

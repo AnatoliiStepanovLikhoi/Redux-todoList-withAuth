@@ -1,8 +1,8 @@
 {
-  "name": "redux-test",
+  "name": "redux-todolist-withauth",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anatoliistepanovlikhoi.github.io/Redux-test/",
+  "homepage": "https://anatoliistepanovlikhoi.github.io/redux-todolist-withauth/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.3",
